@@ -1,0 +1,289 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+span {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+strong {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+ul {
+    list-style: none;
+}
+
+/* //////////////////////////////////// */
+.home {
+    background-image: url(images/events-heavenly-header.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.home .layer {
+    background-color: rgba(204, 33, 42, 0.5);
+    /* width:80%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home .layer .caption {
+    color: white;
+    text-align: center;
+}
+
+.home .layer .caption .open {
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+    top: 55%;
+}
+
+.nav {
+    width: 0%;
+    /* width:20%; */
+    position: relative;
+    background-color: #111111;
+    z-index: 20;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    height: 100%;
+}
+.nav .selectors{
+    margin-left: 40px;
+}
+.nav li a {
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    transition: all .4s;
+    text-decoration: none;
+    display: none;
+    padding-bottom: 30px;
+}
+
+.nav a:hover {
+    color: #601C18;
+}
+
+.nav .icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav .icon i {
+    cursor: pointer;
+}
+
+.nav .icon i:hover {
+    color: #601C18;
+}
+
+/* //////END HOME && NAV///////// */
+.singer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px 0;
+}
+
+.singer .sing {
+    background-color: #E68285;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 15px;
+}
+
+.singer .sing h3 {
+    color: white;
+}
+
+.singer .sing h3.one {
+    position: relative;
+}
+
+.singer .sing h3.one::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 1.5px;
+    background-color: white;
+    border-radius: 1px;
+    bottom: 0;
+    left: 40%;
+}
+
+.singer .sing h3.one::before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 1.5px;
+    background-color: white;
+    border-radius: 1px;
+    bottom: 3px;
+    left: 40%;
+}
+
+.singer .sing .txt {
+    background-color: #CCCCCC;
+    display: none;
+}
+
+/* //////////END SINGER//////// */
+/* start count down */
+.count-down {
+    background-image: url(images/invitation-2508607__340.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.count-down span {
+    border: 2px white solid;
+    padding: 50px 100px;
+    color: white;
+}
+
+.count-down .layer {
+    width: 100%;
+    padding: 90px 0;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    background-color: rgba(204, 33, 42, 0.5);
+}
+
+/* end count down */
+/* join start */
+.join {
+    width: 90%;
+    margin: auto;
+    padding-top: 120px;
+    padding-bottom: 80px;
+}
+
+.join h2 {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.join p {
+    text-align: center;
+    color: #777777;
+}
+
+.join .container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.join .info {
+    width: 49%;
+}
+.join .info p {
+    margin-bottom: 40px;
+}
+
+.join .info p i.fa {
+    margin-right: 10px;
+}
+
+.join .info p.p-red {
+    color: #D62E33;
+}
+
+.join .info i {
+    color: #777777;
+}
+
+.join .info .icons {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.join .info .icon-container {
+    border: 1px #777777 solid;
+    padding: 10px 0;
+    width: 10%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.join .info .icon-container:hover {
+    background-color: #D62E33;
+}
+
+.join .info .icon-container:hover i {
+    color: white;
+}
+
+.join .inputs {
+    width: 49%;
+}
+
+.join .inputs input {
+    width: 100%;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.join .inputs textarea {
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+}
+
+.join .inputs button {
+    padding: 10px;
+    border: none;
+    background-color: #D62E33;
+    color: white
+}
+
+.join .inputs span {
+    color: #D62E33;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* join end */

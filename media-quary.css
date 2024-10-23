@@ -1,0 +1,155 @@
+/* Boatstrap */
+/* mobile first */
+/* small */
+@media screen  and (min-width:576px) {
+    .sm-100{
+        width:100%;
+    }
+    .sm-50{
+        width:50%;
+    }
+    .sm-33{
+        width:33.33%;
+    }
+    .sm-25{
+        width:25%;
+    }
+    .sm-20{
+        width:20%;
+    }
+    .sm-16{
+        width:16.666%;
+    }
+}
+/* m */
+@media screen  and (min-width:768px) {
+    .m-100{
+        width:100%;
+    }
+    .m-50{
+        width:50%;
+    }
+    .m-33{
+        width:33.33%;
+    }
+    .m-25{
+        width:25%;
+    }
+    .m-20{
+        width:20%;
+    }
+    .m-16{
+        width:16.666%;
+    }
+}
+/* l */
+@media screen  and (min-width:992px) {
+    .lg-100{
+        width:100%;
+    }
+    .lg-50{
+        width:50%;
+    }
+    .lg-33{
+        width:33.33%;
+    }
+    .lg-25{
+        width:25%;
+    }
+    .lg-20{
+        width:20%;
+    }
+    .lg-16{
+        width:16.666%;
+    }
+}
+/* x-large */
+@media screen  and (min-width:1200px) {
+    .x-lg-100{
+        width:100%;
+    }
+    .x-lg-50{
+        width:50%;
+    }
+    .x-lg-33{
+        width:33.33%;
+    }
+    .x-lg-25{
+        width:25%;
+    }
+    .x-lg-20{
+        width:20%;
+    }
+    .x-lg-16{
+        width:16.666%;
+    }
+}
+/* specificity in default is bigger so remove it  */
+
+
+
+/* learn media quary */
+
+/* default --> x-large */
+/* don't have to write x-large @media */
+/* extra small */
+/* @media screen  and  (max-width:575px){
+    .baking .cakes{
+        width:100%;
+    }
+} */
+/* small */
+/* @media screen  and (min-width:576px) and (max-width:767px){
+    .baking .cakes{
+        width:100%;
+    }
+} */
+/* m */
+/* @media screen  and (min-width:768px) and (max-width:991px){
+    .baking .cakes{
+        width:50%;
+    }
+} */
+/* l */
+/* @media screen  and (min-width:992px) and (max-width:1119px){
+    .baking .cakes{
+        width:50%;
+    }
+} */
+/* x-large */
+/* don't have to write it as it's default */
+/* @media screen  and (min-width:1200px) {
+    .baking .cakes{
+        width:33.33%;
+    }
+} */
+
+
+
+/*mobile first  */
+/* default extra small */
+/* don't have to write extra small media quary */
+/* small */
+/* @media screen  and (min-width:576px) {
+    .baking .cakes{
+        width:100%;
+    }
+} */
+/* m */
+/* @media screen  and (min-width:768px) {
+    .baking .cakes{
+        width:50%;
+    }
+} */
+/* l */
+/* @media screen  and (min-width:992px) {
+    .baking .cakes{
+        width:50%;
+    }
+} */
+/* x-large */
+/* @media screen  and (min-width:1200px) {
+    .baking .cakes{
+        width:33.33%;
+    }
+} */
